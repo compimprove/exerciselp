@@ -5,12 +5,26 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>FREE report</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        
+        <div className={styles.header}><span>Free Report Reveals</span></div>
+        <h1>Text</h1>
+        <div className={styles.twoRow}>
+          <div className={styles.row1}>
+            <ul>
+              <li>report1</li>
+              <li>report2</li>
+            </ul>
+          </div>
+          <div className={styles.row2}>
+            <div className="sendlane-form" data-form-key="eyJkb21haW4iOiJjb21waWhlYWx0aCIsImZvcm1faWQiOiJiMjdhMmM2MS1iZjQ5LTQyYjctOWJmZi1lZjMxZDkwMmRiNWUifQ=="></div>
+            <script src="https://sendlane.com/scripts/pusher.js" async></script>
+          </div>
+        </div>
+
       </main>
 
       <footer className={styles.footer}>

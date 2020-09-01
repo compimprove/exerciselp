@@ -5,15 +5,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(166, 193, 224);
 }
 
 .main {
-  padding: 5rem 0;
+  background-color:white;
+  width: 80%;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.twoRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.row1{
+  padding-top: 40px;
+  width: 300px;
+}
+.row2{
+  width:300px;
+}
+
+.header {
+  padding-top: 10px;
+  width: 100%;
+  padding-bottom: 30px;
+  background-color:rgb(175, 239, 106);
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .footer {
